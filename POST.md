@@ -1,7 +1,7 @@
 # POST/lunch/mealCat/burgerMeal
 
 
-''' JSON
+``` JSON
   {
      "mealType":"lunch",
      "mealCat":{
@@ -37,7 +37,7 @@
      },
   }
   
-'''
+```
 
 
 
