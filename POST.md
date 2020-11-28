@@ -55,3 +55,8 @@ For this POC, this document will only include the burgerMeal.
 The bugerMeal consists of 3 objects: A main dish, side dishes, and a drink.
 At least one side dish must be ordered.
 
+| Object        | Data Type     | Values     | Defenition    |
+| ------------- | ------------- | ---------- | ------------- |
+| main          | string        | burgerMeal |Burger with bun, condemints,toppings, a choice of 2 side dishes, and a drink |
+
+
