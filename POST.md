@@ -1,5 +1,9 @@
 # POST/lunch/mealCat/burgerMeal
 
+The following is a POST/lunch request. 
+This is what it would look like when a custumer has finished thier order and clicked confirm order.
+After the code snippet is an explination of all the variables and thier valuse.
+
 
 ``` JSON
   {
@@ -40,5 +44,7 @@
 ```
 
 
-
+The mealType object for this POC is limited to lunch. In the future, mealType can include breakfast and dinner. 
+The mealType will be determined by when the order is placed. For example, lunch is between 12:00 PM-5:00 PM. 
+The diner can adjust the time of when each meal is served. 
 
