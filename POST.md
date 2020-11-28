@@ -48,3 +48,10 @@ The mealType object for this POC is limited to lunch. In the future, mealType ca
 The mealType will be determined by when the order is placed. For example, lunch is between 12:00 PM-5:00 PM. 
 The diner can adjust the time of when each meal is served. 
 
+**Note:** The mealtype can not be manually changed in an order.
+
+Lunch is a mealtype that consists of different choices of mealCat. 
+For this POC, this document will only include the burgerMeal. 
+The bugerMeal consists of 3 objects: A main dish, side dishes, and a drink.
+At least one side dish must be ordered.
+
