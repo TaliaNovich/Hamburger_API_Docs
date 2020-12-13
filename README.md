@@ -13,4 +13,4 @@ This API is already set up to be used for in-house orders. Below you will see a 
 
 [link to Get/tableNo](https://github.com/TaliaNovich/Hamburger_API_Docs/blob/main/GET.md)
 
-link to Response codes
+[link to Response codes](https://github.com/TaliaNovich/Hamburger_API_Docs/blob/main/Response_Codes.md)
