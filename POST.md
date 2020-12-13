@@ -104,3 +104,13 @@ If *"none"* is chosen for type size and ice will be filled in as blank in the co
 | ice        	| string    	| yes, no                                 	| A choice of adding ice to the drink. 	|
 
 **Note:** Use *"none"* to indicate a null value where applicable.
+
+## POST Response Example 
+
+When a correct order is placed, the server replies to the app with an acknowledgment. 
+This is not displayed to the user.  
+
+```JSON
+200 OK
+
+```
