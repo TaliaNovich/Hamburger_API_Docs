@@ -59,4 +59,20 @@ At least one side dish must be ordered.
 | ------------- | ------------- | ---------- | ------------- |
 | main          | string        | burgerMeal |Burger with bun, condemints,toppings, a choice of 2 side dishes, and a drink |
 
+## Burger
 
+This is a JSON object of a burger of the burgerMeal in lunch. 
+The burger object consists of properties that describe the burger. 
+All properties are mandatory, there are no default values.
+Use “none” for a null value.
+Properties marked with an (n) are properties that can be entered more than once, where (n) represents a number. For example, condiments1. 
+
+| Properties    	| Data Type 	| Values                                	| Definition                                                                          	|
+|---------------	|-----------	|---------------------------------------	|-------------------------------------------------------------------------------------	|
+| pattyType     	| string    	| beef, veggie lamb                     	| Choices of different types of burgers including beef, veggie, and lamb              	|
+| pattyQty      	| int       	| 1, 2, 3                               	| The number of patties on the burger. All are the same type. Limit of patties is 3.  	|
+| pattyWeightG  	| int       	| 100, 200, 300                         	| The number representing weight of the patty in grams. The limit is 300.             	|
+| pattyCook     	| string    	| MR, M, MW                             	| The cook on the patty. MR-medium rare, M-medium, MW-medium well.                    	|
+| bunType       	| string    	| white, wholeWheat, none               	| Choices of different types of buns including whole wheat, white, and no bun.        	|
+| condiment (n) 	| string    	| ketchup, bbqSauce, secretSauce, none  	| A choice of up to two condiments. A choice of none means no condiment.              	|
+| topping (n)   	| string    	| lettuce, pickles, tomato, onion, none 	| A choice of up to four toppings. A choice of none means no toppings                 	|
