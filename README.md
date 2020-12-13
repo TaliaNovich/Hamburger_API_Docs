@@ -23,5 +23,5 @@ This API supports JSON Web Signature and Web Encryption.
 
 ## Refrances 
 
-This exercise was adapted from the API Guide doc. by [Alex Fiedler](https://www.linkedin.com/feed/update/urn:li:activity:6626465471241732096/)
+This exercise was adapted from the API Guide doc. by [Alex Fiedler](https://www.linkedin.com/feed/update/urn:li:activity:6626465471241732096/).
 Thank you for making this project open.
