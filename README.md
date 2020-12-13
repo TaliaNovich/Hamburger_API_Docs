@@ -9,8 +9,19 @@ This API is already set up to be used for in-house orders. Below you will see a 
 
 ![API Work Flow](/API_Images/APIFlowChart.png)
 
-[link to Post/lunch](https://github.com/TaliaNovich/Hamburger_API_Docs/blob/main/POST.md)
+## Aditional topics
 
-[link to Get/tableNo](https://github.com/TaliaNovich/Hamburger_API_Docs/blob/main/GET.md)
+[Post/lunch Properties](https://github.com/TaliaNovich/Hamburger_API_Docs/blob/main/POST.md)
 
-[link to Response codes](https://github.com/TaliaNovich/Hamburger_API_Docs/blob/main/Response_Codes.md)
+[Get/tableNo Properties](https://github.com/TaliaNovich/Hamburger_API_Docs/blob/main/GET.md)
+
+[Response codes](https://github.com/TaliaNovich/Hamburger_API_Docs/blob/main/Response_Codes.md)
+
+## Authentication
+
+This API supports JSON Web Signature and Web Encryption.
+
+## Refrances 
+
+This exercise was adapted from the API Guide doc. by [Alex Fiedler](https://www.linkedin.com/feed/update/urn:li:activity:6626465471241732096/)
+Thank you for making this project open.
