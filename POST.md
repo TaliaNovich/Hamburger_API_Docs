@@ -64,7 +64,7 @@ At least one side dish must be ordered.
 This is a JSON object of a burger of the burgerMeal in lunch. 
 The burger object consists of properties that describe the burger. 
 All properties are mandatory, there are no default values.
-Use “none” for a null value.
+Use *“none”* for a null value.
 Properties marked with an (n) are properties that can be entered more than once, where (n) represents a number. For example, condiments1. 
 
 | Properties    	| Data Type 	| Values                                	| Definition                                                                          	|
@@ -76,3 +76,41 @@ Properties marked with an (n) are properties that can be entered more than once,
 | bunType       	| string    	| white, wholeWheat, none               	| Choices of different types of buns including whole wheat, white, and no bun.        	|
 | condiment (n) 	| string    	| ketchup, bbqSauce, secretSauce, none  	| A choice of up to two condiments. A choice of none means no condiment.              	|
 | topping (n)   	| string    	| lettuce, pickles, tomato, onion, none 	| A choice of up to four toppings. A choice of none means no toppings                 	|
+
+## Sides
+
+This is the JSON object for side dishes. 
+Object side1 is mandatory and must be filled in with values. 
+Object side2 can be the same as side one. 
+If *“none”* is chosen as a value, size will automatically appear blank in the code.
+
+| Properties 	| Data Type 	| Values                                      	| Definition                           	|
+|------------	|-----------	|---------------------------------------------	|--------------------------------------	|
+| type       	| string    	| frenchFries, onionRings, potatoWedges, none 	| A choice of different types of sides 	|
+| size       	| string    	| small, medium, large                        	| A choice of portion size.            	|
+
+**Note:** Use *"none"* to indicate a null value where applicable.
+
+## Drink
+
+The object drink is mandatory. 
+All properties must be filled in with a value. 
+If *"none"* is chosen for type size and ice will be filled in as blank in the code.
+
+| Properties 	| Data Type 	| Values                                  	| Definition                           	|
+|------------	|-----------	|-----------------------------------------	|--------------------------------------	|
+| type       	| string    	| coke, fanta, sprite, water, juice, none 	| A choice of one drink type.          	|
+| size       	| string    	| small, medium, large                    	| A choice of drink size.              	|
+| ice        	| string    	| yes, no                                 	| A choice of adding ice to the drink. 	|
+
+**Note:** Use *"none"* to indicate a null value where applicable.
+
+## POST Response Example 
+
+When a correct order is placed, the server replies to the app with an acknowledgment. 
+This is not displayed to the user.  
+
+```JSON
+200 OK
+
+```
