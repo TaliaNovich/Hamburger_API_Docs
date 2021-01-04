@@ -73,7 +73,7 @@ Properties marked with an "(n)" are properties that can be entered more than onc
 | pattyQty      	| int       	| 1, 2, 3                               	| The number of patties on the burger. All are the same type. Limit of patties is 3.  	|
 | pattyWeightG  	| int       	| 100, 200, 300                         	| The number representing weight of the patty in grams. The limit is 300.             	|
 | pattyCook     	| string    	| "MR", "M", "MW"                             	| The cook on the patty. MR-medium rare, M-medium, MW-medium well.                    	|
-| bunType       	| string    	| white, wholeWheat, none               	| Choices of different types of buns including whole wheat, white, and no bun.        	|
+| bunType       	| string    	| "white", "wholeWheat", "none"               	| Choices of different types of buns including whole wheat, white, and no bun.        	|
 | condiment (n) 	| string    	| "ketchup", "bbqSauce", "secretSauce", "none"  	| A choice of up to two condiments. A choice of none means no condiment.              	|
 | topping (n)   	| string    	| "lettuce", "pickles", "tomato", "onion", "none" 	| A choice of up to four toppings. A choice of none means no toppings                 	|
 
