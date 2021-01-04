@@ -7,7 +7,7 @@ For this POC it will only show the meal lunch and the order of a burger meal.
 In the future breakfast, dinner, and their corresponding dishes will be added.
 This API is already set up to be used for in-house orders. Below you will see a work flow chart of the API.
 
-![API Work Flow](/API_Images/APIFlowChart.png)
+![API Work Flow](/API_Images/API%20Flow%20Chart.png)
 
 ## Aditional topics
 
