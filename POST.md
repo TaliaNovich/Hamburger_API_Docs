@@ -57,7 +57,7 @@ At least one side dish must be ordered.
 
 | Object        | Data Type     | Values     | Definition    |
 | ------------- | ------------- | ---------- | ------------- |
-| main          | string        | "burgerMeal" |Burger with bun, condements,toppings, a choice of 2 side dishes, and a drink |
+| main          | string        | "burgerMeal" |Burger with bun, condiments,toppings, a choice of 2 side dishes, and a drink |
 
 ## Burger
 
